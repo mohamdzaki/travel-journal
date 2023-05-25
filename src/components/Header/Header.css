@@ -1,0 +1,19 @@
+.nav--container {
+  background-color: #49c1f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 5px 10px #bbbbbb;
+}
+
+.nav--container img {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.nav--container p {
+  color: white;
+  font-size: 14.46px;
+  font-weight: bold;
+}
