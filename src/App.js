@@ -1,10 +1,10 @@
 import "./App.css";
-import experienceData from "./ExperienceData";
+import { data } from "./ExperienceData";
 import Card from "./components/Card/Card";
 import Header from "./components/Header/Header";
 
 function App() {
-  const CardEle = experienceData.map((experience) => {
+  const CardEle = data.map((experience) => {
     return <Card {...experience} />;
   });
   return (

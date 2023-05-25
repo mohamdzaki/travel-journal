@@ -1,4 +1,4 @@
-export default [
+export const data = [
   {
     img: "/images/fujiMountain.jpg",
     country: "Japan",
